@@ -28,7 +28,7 @@ export default class App extends Component {
           </Container>
         </Navbar>
         <Outlet/>
-        <audio hidden controls autoPlay loop>
+        <audio autoPlay loop>
           <source src={walkerTexasRangerThemeSong} type='audio/mp3'/>
         </audio>
         
